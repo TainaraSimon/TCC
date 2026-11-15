@@ -1,0 +1,26 @@
+// Cores do Introspect, escolhidas com base na psicologia das cores
+$primary   : #4A7F72; // verde-sálvia: calma, equilíbrio e segurança
+$secondary : #8E7CC3; // lavanda: serenidade e introspecção
+$accent    : #E8997D; // pêssego: acolhimento e calor humano
+
+$dark      : #1D1D1D;
+$dark-page : #121212;
+
+// Cores de status em tons suaves, sem vermelho ou verde agressivos
+$positive  : #5B9E7A;
+$negative  : #C96A64;
+$info      : #6C9BD2;
+$warning   : #E0A84F;
+
+// Cores próprias do projeto
+$fundo         : #FAF7F2; // creme: confortável e menos "clínico" que o branco puro
+$texto         : #3E4C55; // grafite: boa leitura, mais suave que o preto
+$texto-suave   : #6B7780;
+$salvia-clara  : #EAF3EF;
+$lavanda-clara : #EFEBFA;
+$pessego-claro : #FBEFE9;
+
+// Fonte arredondada e cantos arredondados em cards, campos e botões
+$typography-font-family : 'Nunito', 'Roboto', sans-serif;
+$generic-border-radius  : 14px;
+$button-border-radius   : 10px;

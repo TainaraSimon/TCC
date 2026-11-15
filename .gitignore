@@ -1,0 +1,19 @@
+# Segredos (chave do Groq, senha do banco, JWT)
+.env
+backend/.env
+
+# Ambiente virtual e cache do Python
+backend/.venv/
+__pycache__/
+
+# Áudios de teste (gravações de voz não vão para o repositório)
+*.webm
+*.ogg
+*.mp3
+*.m4a
+*.wav
+*.flac
+
+# Configurações locais de editor
+.vscode/
+.idea/

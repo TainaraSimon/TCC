@@ -1,0 +1,44 @@
+// Estilos globais do Introspect
+// Verde-sálvia (calma e segurança), lavanda (serenidade e introspecção) e
+// pêssego (acolhimento) sobre fundo creme (conforto).
+
+body {
+  background-color: $fundo;
+  color: $texto;
+}
+
+// Links dentro das páginas (não afeta botões)
+.q-page a:not(.q-btn) {
+  color: $primary;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Cards com sombra suave
+.q-card {
+  box-shadow: 0 4px 18px rgba(62, 76, 85, 0.08);
+}
+
+// Título e subtítulo usados no topo de cada página
+.titulo-pagina {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: $texto;
+}
+
+.subtitulo-pagina {
+  margin-top: 4px;
+  color: $texto-suave;
+}
+
+// Celular
+@media (max-width: 599px) {
+  .titulo-pagina {
+    font-size: 1.3rem;
+  }
+}

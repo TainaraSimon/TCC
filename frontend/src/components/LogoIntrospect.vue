@@ -1,0 +1,17 @@
+<template>
+  <svg :width="tamanho" :height="tamanho" viewBox="0 0 120 120" role="img" aria-label="Logo do Introspect">
+    <circle cx="60" cy="60" r="56" fill="#EAF3EF" />
+    <!-- Gota: um momento de reflexão -->
+    <path d="M60 18 C66 30 76 42 76 56 A16 16 0 0 1 44 56 C44 42 54 30 60 18 Z" fill="#A99BD9" />
+    <ellipse cx="54" cy="52" rx="4" ry="7" fill="#FFFFFF" opacity="0.5" />
+    <!-- Ondas: a reflexão se espalhando com calma -->
+    <ellipse cx="60" cy="92" rx="34" ry="9" fill="none" stroke="#5E9A8C" stroke-width="5" />
+    <ellipse cx="60" cy="92" rx="17" ry="4" fill="none" stroke="#5E9A8C" stroke-width="4" opacity="0.6" />
+  </svg>
+</template>
+
+<script setup>
+defineProps({
+  tamanho: { type: Number, default: 40 }
+})
+</script>
