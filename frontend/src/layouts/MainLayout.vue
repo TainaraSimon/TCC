@@ -1,6 +1,5 @@
 <template>
-  <!-- "fff" minúsculo: o rodapé fica no fim da página, sem ocupar espaço fixo na tela do celular -->
-  <q-layout view="hHh lpR fff">
+  <q-layout view="hHh LpR fff">
     <q-header bordered class="bg-white text-grey-9">
       <q-toolbar>
         <q-btn flat round dense icon="menu" aria-label="Abrir menu" class="lt-md q-mr-sm" @click="menuAberto = !menuAberto" />
@@ -77,7 +76,6 @@ const links = [
 const primeiroNome = computed(() => (autenticacao.usuario ? autenticacao.usuario.nome.split(' ')[0] : ''))
 
 onMounted(async () => {
-  // Ao recarregar a página, busca novamente os dados do usuário logado
   if (!autenticacao.usuario) {
     try {
       await autenticacao.carregarUsuario()
