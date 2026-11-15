@@ -1,7 +1,7 @@
 <template>
   <PainelAcesso titulo="Crie sua conta" subtitulo="Comece sua jornada de autoconhecimento">
     <q-card-section>
-      <q-form class="q-gutter-md" @submit="cadastrar">
+        <q-form class="q-gutter-y-md" @submit="cadastrar">
         <q-input
           v-model="nome"
           label="Nome"
@@ -48,8 +48,8 @@
           <template #prepend><q-icon name="lock_outline" /></template>
         </q-input>
 
-        <div class="aviso-privacidade row no-wrap q-gutter-sm">
-          <q-icon name="verified_user" size="sm" color="secondary" />
+        <div class="aviso-privacidade row no-wrap">
+          <q-icon name="verified_user" size="sm" color="secondary" class="q-mr-sm" />
           <div>
             Seus relatos são dados pessoais sensíveis. Para a transcrição e a análise, apenas o áudio e o
             texto do relato são enviados ao serviço de IA (Groq Cloud), sem seus dados de identificação.

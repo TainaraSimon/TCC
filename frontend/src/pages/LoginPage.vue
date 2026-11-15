@@ -1,7 +1,7 @@
 <template>
   <PainelAcesso titulo="Que bom ter você aqui" subtitulo="Entre para continuar seus registros">
     <q-card-section>
-      <q-form class="q-gutter-md" @submit="entrar">
+        <q-form class="q-gutter-y-md" @submit="entrar">
         <q-input
           v-model="email"
           type="email"
